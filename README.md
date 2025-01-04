@@ -12,7 +12,7 @@ In development! There is much work to be done.
 ## Roadmap
 - [ ] System Reference Document
 - [ ] Player's Guide
-- [ ] Referee's Guide
+- [ ] Game Master's Guide
 
 ## License
 The following files, directories, and their children (recursively) are not included in the MIT License:
