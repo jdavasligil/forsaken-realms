@@ -1,5 +1,11 @@
+---
+title: SRD
+description: A summary of the rules and reference material for the Forsaken Realms.
+---
+
 # Forsaken Realms System Reference Document (v1.0.0)
-**Forsaken Realms** is licensed under (CC-BY-SA 4.0)[https://creativecommons.org/licenses/by-sa/4.0/]
+
+**Forsaken Realms** is licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 **Forsaken Realms** is a dark fantasy adventure roleplaying game for one or more facilitators (the **Referee**) and at least one other player. Players act as hardened adventurers exploring mysterious ruins and forsaken realms filled with strange folk, hidden treasure, and unfathomable horrors.
 
