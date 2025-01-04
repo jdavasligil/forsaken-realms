@@ -10,7 +10,7 @@ export default defineConfig({
 		starlight({
 			title: 'Forsaken Realms',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/jdavasligil/forsaken-realms',
 			},
 			sidebar: [
 				{
