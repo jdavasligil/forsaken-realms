@@ -6,7 +6,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Forsaken Realms',
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
@@ -23,6 +23,10 @@ export default defineConfig({
 					autogenerate: { directory: 'reference' },
 				},
 			],
+      customCss: [
+        './src/fonts/font-face.css',
+        './src/styles/custom.css',
+      ],
 		}),
 	],
 });

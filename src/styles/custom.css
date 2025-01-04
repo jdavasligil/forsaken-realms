@@ -1,0 +1,13 @@
+:root {
+  --sl-font: jost, verdana, roboto, sans-serif;
+  font-size: 20px;
+}
+
+.site-title, .hero h1 {
+  font-family: manuscript-gothic, sans-serif;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4 {
+  font-family: jost, sans-serif;
+}
