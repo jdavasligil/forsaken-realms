@@ -11,3 +11,19 @@
 h1, h2, h3, h4 {
   font-family: jost, sans-serif;
 }
+
+tr:nth-child(even) {
+  background-color: var(--sl-color-bg-nav);
+}
+
+thead {
+  background-color: var(--sl-color-accent-low);
+}
+
+.sl-markdown-content :is(th:first-child, td:first-child):not(:where(.not-content *)) {
+    padding-inline-start: 1rem;
+}
+
+.sl-markdown-content :is(th:last-child, td:last-child):not(:where(.not-content *)) {
+    padding-inline-end: 1rem;
+}

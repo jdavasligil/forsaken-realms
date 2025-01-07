@@ -1,5 +1,5 @@
 ---
-title: SRD
+title: System Reference Document
 description: A summary of the rules and reference material for the Forsaken Realms.
 ---
 
@@ -9,7 +9,7 @@ description: A summary of the rules and reference material for the Forsaken Real
 
 **Forsaken Realms** is a dark fantasy adventure role-playing game for one or more facilitators (the **Game Master** or **GM**) and at least one other player. Players act as hardened adventurers exploring mysterious ruins and forsaken realms filled with strange folk, hidden treasure, and unfathomable horrors.
 
-## Design
+## Design Philosophy
 **Forsaken Realms** was written with the following design philosophies in mind:
 
 ### Neutrality
@@ -35,6 +35,7 @@ The GM and the players each have guidelines to help foster a specific play exper
 
 ### Shared Objectives
 Players trust one another to engage with the shared setting, character goals, and party challenges. Therefore, the party is typically working together towards a common goal, as a team.
+
 
 ## Principles for Game Masters
 
@@ -120,3 +121,71 @@ Players trust one another to engage with the shared setting, character goals, an
 - Set goals, share them with your GM, and use your meager means to take steps forward.
 - Expect nothing for free. Earn your reputation.
 - Keep things moving forward and play to see what happens.
+
+
+## Character Creation
+
+#### Attributes
+Player Characters (PCs) have three attributes:  
+**Might (MIG)**, **Agility (AGI)** and **Will (WIL)**, referred together as **MAW**. When creating a PC, the player should roll 3d6 and drop the lowest for each of their character's ability scores in order, down the line. They may swap any two of the results.
+
+Attributes are used to make saves against hazardous and deadly consequences.
+
+<details markdown="block">
+  <summary>
+Expand For Example
+  </summary>
+ Ines rolls for her character's <b>MIG</b>, resulting in a <b>2</b>, a <b>4</b>, and a <b>6</b>, totaling <b>10</b> after dropping the lowest value. The next three ability rolls result in a <b>6</b> for <b>AGI</b>, and a <b>7</b> for <b>WIL</b>. She decides to swap the <b>10</b> and the <b>6</b>, for a character with <b>6 MIG</b>, <b>10 AGI</b>, and <b>7 WIL</b> (6/10/7 <b>MAW</b>).
+</details>
+
+#### Background
+Who were you and why are you here?
+
+Your background is of the form:  
+\[**Reputation** (Adjective) + **Background** (Noun)\] who was \[**Misfortune** (Verb, past participle)\]. E.g. **Unreliable** **alchemist** who was badly **burned**.
+
+Let this brief description spark your imagination.
+
+This is your identity before seeking a new life in the forsaken realm. Outside of role-play, it is used by the GM to determine what your character is proficient at.
+
+<details markdown="block">
+  <summary>
+Expand For Example
+  </summary>
+Ines decides her character was an <b>honest sailor</b> who was <b>cursed</b>.
+
+Her imagination fills the gaps: the PC paid no heed to the old superstitions and cursed the lord of the deep after losing a close mate in a storm. The crew then suffered a bout of misfortune, soon blaming the PC. Eventually, the PC was marooned and left to die. The dread lord of the sea had cursed and abandoned her. Surviving for months off of crab and seaweed, they eventually crafted a makeshift raft which delivered her, after much turmoil, back to land.
+</details>
+
+#### Traits
+Answer the following prompts in terse sentences:
+
+Briefly describe your character's **appearance**. Note their physique, skin texture, hair, face, and clothing. Be sure to have one unique distinguishing feature.
+
+What is their ultimate **ambition**? What do they hope to accomplish in the forsaken realm?
+
+What is their most dreaded **fear**? What keeps them up at night?
+
+Name their darkest **secret**? What are they afraid to reveal?
+
+
+<details markdown="block">
+  <summary>
+Expand For Example
+  </summary>
+With the background sorted, Ines has a pretty good idea about how to answer the character trait questionnaire.
+
+<b>Appearance</b>: Rugged looking with sea weathered skin. She has long greasy black hair, a bony face, old linens with a torn red doublet, a straw hat, and a distinctive tattoo of a serpent wrapping around the arm with fangs bared on the hand.
+
+<b>Ambition</b>: Gain the power to defy the gods and overcome dread lord's curse.
+
+<b>Fear</b>: Losing another friend.
+
+<b>Secret</b>: My courage is all an act. Deep down I am truly terrified.
+</details>
+
+#### Starting Equipment
+Player characters begin with nothing but the clothes on their back, two items from their **background**, and an heirloom **trinket**. Characters in the forsaken realms are unfortunate souls who have lost or given up most of their possessions.
+
+#### Name
+Lastly, name your character.
