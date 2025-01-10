@@ -3,12 +3,12 @@
   font-size: 16px;
 }
 
-.site-title, .hero h1 {
+.site-title, .hero h1, #_top {
   font-family: manuscript-gothic, sans-serif;
   font-weight: normal;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
   font-family: jost, sans-serif;
 }
 
@@ -20,10 +20,24 @@ thead {
   background-color: var(--sl-color-accent-low);
 }
 
+
+.sl-markdown-content :is(h1, h2, h3):not(:where(.not-content *)) {
+  font-weight: normal;
+}
+
+.sl-markdown-content :is(h4, h5, h6):not(:where(.not-content *)) {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
 .sl-markdown-content :is(th:first-child, td:first-child):not(:where(.not-content *)) {
     padding-inline-start: 1rem;
 }
 
 .sl-markdown-content :is(th:last-child, td:last-child):not(:where(.not-content *)) {
     padding-inline-end: 1rem;
+}
+
+.sl-markdown-content :not(h1, h2, h3, h4, h5, h6) + :is(h1, h2, h3, h4, h5, h6):not(:where(.not-content *)) {
+    margin-top: 2rem;
 }
