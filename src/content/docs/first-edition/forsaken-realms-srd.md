@@ -128,7 +128,7 @@ Players trust one another to engage with the shared setting, character goals, an
 
 #### Attributes
 Player Characters (PCs) have three attributes:  
-**Might (MIG)**, **Agility (AGI)** and **Will (WIL)**, referred together as **MAW**. When creating a PC, the player should roll 3d6 and drop the lowest for each of their character's ability scores in order, down the line. They may swap any two of the results. Higher is better.
+**(M)ight**, **(A)gility** and **(W)ill**, referred together as **MAW**. When creating a PC, the player rolls 3d6 and drops the lowest die for each of their character's ability scores in order, down the line. They may swap any two of the results. Higher is better.
 
 Attributes are used to make saves against hazardous and deadly consequences.
 
@@ -136,7 +136,7 @@ Attributes are used to make saves against hazardous and deadly consequences.
   <summary>
 Expand For Example
   </summary>
- Ines rolls for her character's <b>MIG</b>, resulting in a <b>2</b>, a <b>4</b>, and a <b>6</b>, totaling <b>10</b> after dropping the lowest value. The next three ability rolls result in a <b>6</b> for <b>AGI</b>, and a <b>7</b> for <b>WIL</b>. She decides to swap the <b>10</b> and the <b>6</b>, for a character with <b>6 MIG</b>, <b>10 AGI</b>, and <b>7 WIL</b> (6/10/7 <b>MAW</b>).
+ Ada rolls for her character's <b>MIG</b>, resulting in a <b>2</b>, a <b>4</b>, and a <b>6</b>, totaling <b>10</b> after dropping the lowest value. The next three ability rolls result in a <b>6</b> for <b>AGI</b>, and a <b>7</b> for <b>WIL</b>. She decides to swap the <b>10</b> and the <b>6</b>, for a character with <b>6 MIG</b>, <b>10 AGI</b>, and <b>7 WIL</b> (6/10/7 <b>MAW</b>).
 </details>
 
 #### Hit Dice
@@ -158,13 +158,13 @@ This is your identity before seeking a new life in the forsaken realm. Outside o
   <summary>
 Expand For Example
   </summary>
-Ines decides her character was an <b>honest sailor</b> who was <b>cursed</b>.
+Ada decides her character was an <b>honest sailor</b> who was <b>cursed</b>.
 
 Her imagination fills the gaps: the PC paid no heed to the old superstitions and cursed the lord of the deep after losing a close mate in a storm. The crew then suffered a bout of misfortune, soon blaming the PC. Eventually, the PC was marooned and left to die. The dread lord of the sea had cursed and abandoned her. Surviving for months off of crab and seaweed, they eventually crafted a makeshift raft which delivered her, after much turmoil, back to land.
 </details>
 
 #### Traits
-Answer the following prompts in terse sentences:
+Answer the following prompts in single words or terse sentences:
 
 Briefly describe your character's **appearance**. Note their physique, skin texture, hair, face, and clothing. Be sure to have one unique distinguishing feature.
 
@@ -179,7 +179,7 @@ Name their darkest **secret**? What are they afraid to reveal?
   <summary>
 Expand For Example
   </summary>
-With the background sorted, Ines has a pretty good idea about how to answer the character trait questionnaire.
+With the background sorted, Ada has a pretty good idea about how to answer the character trait questionnaire.
 
 <b>Appearance</b>: Rugged looking with sea weathered skin. She has long greasy black hair, a bony face, old linens with a torn red doublet, a straw hat, and a distinctive tattoo of a serpent wrapping around the arm with fangs bared on the hand.
 
@@ -195,3 +195,59 @@ Player characters begin with nothing but the clothes on their back, two items fr
 
 #### Name
 Lastly, name your character.
+
+
+## Rules
+### Abilities
+Each of the three **abilities (MAW)** are used in different circumstances.
+
+**(M)ight:** Used for saves requiring physical power. E.g. lifting gates, bending bars, resisting poison, etc.
+
+**(A)gility:** Used for saves requiring poise, speed, and reflexes. E.g. dodging, climbing, sneaking, balancing, etc.
+
+**(W)ill:** Used for saves requiring the force of will or mental fortitude. E.g. casting spells, binding a demon, resisting charm, or holding on to sanity.
+
+### Saves
+A **save** is a roll made to avoid bad outcomes from risky choices and circumstances.
+
+To make a MAW save, roll a d20. A result less than or equal to your MAW score is a success where higher is better. Rolling above your MAW score is a failure. However, a result of 20 always succeeds, and a result of 1 always fails. 
+
+A save is only rolled when the GM makes a call for it. Saves are typically made in response to player decisions.
+
+A result of 20 is the best possible outcome, and puts your player character in a better position.
+Conversely, a result of 1 is the worst possible outcome, and puts your player character in a worse position.
+
+<details markdown="block">
+  <summary>
+Expand For Example
+  </summary>
+<b>GM</b>: The red dragon takes a deep breath, and then bellows out a stream of blazing fire towards you!<br>
+<b>Ada</b>: I raise my fireproof shield Dragonsbane and block the blast!<br>
+<b>GM</b>: Excellent, make a Might save. Baldo?<br>
+<b>Baldo</b>: I dive out of the way and take cover behind the pillar.<br>
+<b>GM</b>: Very well, make an Agility save. How about you Clare?<br>
+<b>Clare</b>: I open my grimoire and call upon the daemon Ignon to protect me from the flames.<br>
+<b>GM</b>: Interesting. Make a Will save!<br>
+</details>
+
+### Rest & Recovery
+#### Short Rest
+Resting for one turn and having a drink of water allows you to spend a number of hit dice to recover HP. Choose how many you wish to spend and roll them. The total is the amount of HP recovered.
+
+You may perform light activity while resting such as tending to wounds, studying an arcane object, or having a conversation.
+
+#### Long Rest
+Eating a meal and getting a full nights rest with few interruptions recovers all hit dice and HP.
+
+Maximum HP for the day is determined by rerolling all hit dice to see how well you rested. Bonus hit dice may be awarded by various circumstances which are added to the pool rolled. Drop a number of low dice equal to the number of bonus dice added.
+
+### Healing
+#### Natural Healing
+Critical damage to attributes requires extended periods of downtime to recover on its own. You recover 1d3 to each attribute for every week of rest. Applying natural remedies and doing nothing else during downtime increases recovery speed to 1d6.
+
+#### Magical Healing
+There are some who claim to be able to perform miracles. Most are charlatans and peddlers of cheap tricks.
+
+However, one may occasion upon a true practitioner of theurgical or thaumaturgical healing. Beware! Magic is dangerous, unpredictable, and always has a cost.
+
+True alchemist's potions or elixirs are rare and coveted, and typically come with unusual side effects. Powerful potions can maim, disfigure, or outright kill the imbiber.
