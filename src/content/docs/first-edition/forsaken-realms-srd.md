@@ -251,3 +251,68 @@ There are some who claim to be able to perform miracles. Most are charlatans and
 However, one may occasion upon a true practitioner of theurgical or thaumaturgical healing. Beware! Magic is dangerous, unpredictable, and always has a cost.
 
 True alchemist's potions or elixirs are rare and coveted, and typically come with unusual side effects. Powerful potions can maim, disfigure, or outright kill the imbiber.
+
+### Fatigue
+A PC deprived of a crucial need such as food or rest is unable to recover HP, hit dice, or ability scores. Anyone deprived for more than a day adds **Fatigue** to their inventory, one for each day.
+
+Each Fatigue occupies one inventory slot and lasts until they are able to take a long rest. PCs can also gain Fatigue by casting spells or other various circumstances.
+
+### Defense Rating
+Before calculating damage to HP, subtract the target's **Defense Rating (DR)** from the result of damage rolls.
+
+Wearing armor and performing defensive actions such as **parrying** adds to one's DR.
+
+### Reactions
+When PCs encounter an NPC whose reaction to the party is not obvious, the GM may roll 2d6. Higher results indicate a more positive and helpful reaction. Lower results are more negative, wary, or outright hostile.
+
+### Morale
+Creatures must pass a Will save to avoid fleeing when they take their first casualty, and again when they lose half their number.
+
+Organized groups use their leader's Will in place of their own. Lone foes must save when they're reduced to 0 HP.
+
+Morale does not apply to PCs.
+
+### Hirelings
+PCs can hire **hirelings** to aid them in their expeditions. Hirelings are NPCs offering adventuring services. They can either be paid per day or by portion of share.
+
+##### Cost
+| Level | Cost (gp / day) | Cost (share) |
+| :---: | :-------------: | :----------: |
+|   1   |      1--3       |     1/8      |
+|   2   |      2--6       |     1/4      |
+|   3   |      3--8       |     1/3      |
+|   4   |      5--12      |     1/2      |
+|   5   |     10--24      |      1       |
+
+**Note.** A share is the amount equally divided among all members of a party. A fraction share is calculated as a fraction of one's whole share, the remaining being distributed equally to the rest of the party.
+
+### Wealth & Treasure
+The most common coin is the gold piece (gp), which is equal to 10 silver pieces (sp) and 100 copper pieces (cp).
+
+Treasure is highly valuable, usually bulky, and rarely of practical use. It can be a hook taking PCs to exotic and dangerous locations, and is often protected by deadly foes.
+
+Villages, strongholds, and ports of call barter and trade based on the local rarity and value of an item or commodity.
+
+### Magic & The Occult
+Magic is immensely powerful, unpredictable, and often dangerous. It has caused the rise and fall of many an empire; the destruction of entire peoples and continents; and also, many intelligent and foolhardy souls driven to great madness and despair.
+
+While many have a dabbling curiousity in the occult, few are brave or mad enough to dedicate their lives in its pursuit. Most kingdoms view magic with great suspicion, even those who enjoy its benefits. Many outlaw its practice completely, having been scorned by the dreadful powers of dark sorcery.
+
+#### Spells
+A spell is a ritual which, when performed, invokes an otherworldly power to produce an effect. Spells require a sacrifice to grant the entity power, and some way of channeling the evocator's Will; typically, by speaking words of power, making arcane gestures, or drawing arcane symbols. This practice is called evocation.
+
+#### Grimoires
+**Grimoires** are magical books that contain a single powerful spell and take up one slot. They cannot be transcribed or created. Instead, they are recovered from ancient and secret places like tombs, dungeons, and lost temples.
+
+Grimoires often display unusual properties or limitations, such as producing a foul or unearthly smell when opened, possessing an innate intelligence, or being legible only when held in moonlight. Some may contain dangerous, forbidden knowledge that may drive the reader mad.
+
+Grimoires will attract the attention of those who seek the arcane power within, and it is considered dangerous to display them openly.
+
+#### Relics
+**Relics** are rare magical items imbued with a magical spell or power.
+
+#### Scrolls
+**Scrolls** are similar to grimoires, however they do not take up an inventory slot and turn to dust after one use.
+
+#### Casting Spells
+Anyone can cast a spell, given they understand it, by making the appropriate sacrifice and reading its contents out loud.
