@@ -1,5 +1,7 @@
 :root {
   --sl-font: jost, verdana, roboto, sans-serif;
+  --sl-color-accent-high: hsl(30, 85%, 70%);
+  --sl-color-accent-low: hsl(30, 15%, 20%);
   font-size: 16px;
 }
 

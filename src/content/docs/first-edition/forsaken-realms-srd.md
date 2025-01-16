@@ -196,6 +196,11 @@ Player characters begin with nothing but the clothes on their back, two items fr
 #### Name
 Lastly, name your character.
 
+## TODO: How to Play
+### Required Materials
+### Roles
+### Running the Game
+### Roleplaying
 
 ## Rules
 ### Abilities
@@ -206,6 +211,8 @@ Each of the three **abilities (MAW)** are used in different circumstances.
 **(A)gility:** Used for saves requiring poise, speed, and reflexes. E.g. dodging, climbing, sneaking, balancing, etc.
 
 **(W)ill:** Used for saves requiring the force of will or mental fortitude. E.g. casting spells, binding a demon, resisting charm, or holding on to sanity.
+
+### TODO: Advancement
 
 ### Saves
 A **save** is a roll made to avoid bad outcomes from risky choices and circumstances.
@@ -229,6 +236,26 @@ Expand For Example
 <b>Clare</b>: I open my grimoire and call upon the daemon Ignon to protect me from the flames.<br>
 <b>GM</b>: Interesting. Make a Will save!<br>
 </details>
+
+### Pushing Rolls
+If you roll above your MAW score but less than 20, the GM may give you the option to **push** the roll.
+
+In this case, the GM presents the stakes: often losing an item, taking critical damage, or death. The stakes are always more dire than the cost of ordinary failure.
+
+If you choose to push the roll, then roll again and take the new result. If you succeed, then you may give an ally **inspiration**. If you fail, then suffer the consequences.
+
+**Note**. You may only make one push attempt per roll.
+
+### Advantage & Disadvantage
+When making a roll with **advantage**, roll two dice and take the better result. For **disadvantage**, take the worse result. Advantage and disadvantage is granted by the GM based on circumstance and clever play.
+
+### Free Rerolls
+When making a free reroll, you must accept the new result.
+
+### Inspiration
+Inspiration can be used to get a free reroll on any MAW save or skill roll.
+
+You either have inspiration, or not. It is lost at the end of each session. Inspiration is granted by players who succeed a pushed roll, and also at the end of each session to the most valued player, in which case they begin their day with it.
 
 ### Rest & Recovery
 #### Short Rest
@@ -299,20 +326,160 @@ Magic is immensely powerful, unpredictable, and often dangerous. It has caused t
 While many have a dabbling curiousity in the occult, few are brave or mad enough to dedicate their lives in its pursuit. Most kingdoms view magic with great suspicion, even those who enjoy its benefits. Many outlaw its practice completely, having been scorned by the dreadful powers of dark sorcery.
 
 #### Spells
-A spell is a ritual which, when performed, invokes an otherworldly power to produce an effect. Spells require a sacrifice to grant the entity power, and some way of channeling the evocator's Will; typically, by speaking words of power, making arcane gestures, or drawing arcane symbols. This practice is called evocation.
+A spell is a ritual which, when performed, invokes an otherworldly power to produce an effect. Spells require a sacrifice to grant the entity power, and some way of channeling the evocator's Will: typically by speaking words of power, making arcane gestures, or drawing arcane symbols. This practice is called evocation.
 
 #### Grimoires
-**Grimoires** are magical books that contain a single powerful spell and take up one slot. They cannot be transcribed or created. Instead, they are recovered from ancient and secret places like tombs, dungeons, and lost temples.
+**Grimoires** are magical books that contain a single powerful spell and take up one inventory slot. They cannot be transcribed or created. Instead, they are recovered from ancient and secret places like tombs, dungeons, and lost temples.
 
 Grimoires often display unusual properties or limitations, such as producing a foul or unearthly smell when opened, possessing an innate intelligence, or being legible only when held in moonlight. Some may contain dangerous, forbidden knowledge that may drive the reader mad.
 
 Grimoires will attract the attention of those who seek the arcane power within, and it is considered dangerous to display them openly.
 
-#### Relics
-**Relics** are rare magical items imbued with a magical spell or power.
+##### Grimoire Examples
+| Title | Properties | Ritual | Effect |
+| ----- | ---------- | ------ | ------ |
+| Book of the Dead | Smells sickly sweet and musty. Hear the cries of lost souls when openned. | Sacrifice 1 year of your life for each soul summoned. Draw the symbols of life and death, and speak the words of binding. (2 rounds) | Raise the dead, binding a lost soul within their corpus to your will. Upon failure, gain Fatigue and lose control over the undead. |
+| Book of the Faerie King | Smells like your favorite scent. Hear the faint sound of a servant bell when opened. | Light a candle and read the call of the faerie king, then blow it out to summon a faerie servant. Sacrifice that which the faerie servant desires most. | Be granted a single powerful faerie spell or service, agreed upon in advance. On failure, the faerie twists the words of the contract against you. |
+| Book of Hellfire | Smells like sulfur. Hot to the touch. Smoke rises from the pages. | Sacrifice a source of flame. Draw the symbol of fire with the flame and then throw it on the ground with force while reading the incantation. | Summon a 10' wide whirling pillar of flame that deals 3d6 damage to all who touch it and moves at your command for up to 10 rounds. On failure, lose control of the hellfire pillar. It moves in a random direction every round. |
+| Book of the Worm | Smells of earth and decay. Causes hallucinations of worms beneath the skin and a craving for flesh. | Mix your blood with that of an innocent vampire, sacrificing both of your souls. Then, sing the hymn of the worm to call upon him. (3 rounds) | Summon the ancient god of decay, blacking out the sun. Upon failure, be consumed by the old one. On success, gain the power of an ancient vampire and black out the sun. |
 
 #### Scrolls
 **Scrolls** are similar to grimoires, however they do not take up an inventory slot and turn to dust after one use.
 
+##### TODO: Examples
+
 #### Casting Spells
-Anyone can cast a spell, given they understand it, by making the appropriate sacrifice and reading its contents out loud.
+Anyone can cast a spell, given they understand it, by making the appropriate sacrifice and reading its contents out loud while performing the specified ritual.
+
+Each spell has a casting time, which tells you how many rounds of combat are required to complete the ritual, typically 1--3.
+
+Spellcasting must be declared at the beginning of the round. You can not move while casting.
+
+Spells are released at the start of the next round, and require the caster to make a Will save to maintain control. The consequence of failure is dependent on the spell. It may cause Fatigue, critical damage, destruction of the book, or even death.
+
+#### Relics
+**Relics** are rare magical items imbued with magical power. They can be activated at will, but have a limited use (1--3 charges) and require a ritual to recharge the item.
+
+##### TODO: Examples
+
+### Combat
+Combat follows the same flow as exploration. The GM describes the situation, and the players declare what they would like to do. There is no initiative system.
+
+#### Actions
+Player characters can perform one action each round of combat, with the exception of ready actions which do not count as your action for the round.
+
+Actions can be fast or slow. A fast action can be completed in a few seconds, whereas a slow action takes the full round.
+
+#### Rounds
+A **round** of combat is roughly ten seconds of in-game time.
+
+After the GM has described the situation and players have declared their intentions, the round progresses simultaneously in logical order using the following phases as a guideline:
+
+##### 1. Ready Actions
+At the top of the round, resolve any spells that are ready. Most spells take 1 round of casting before they are ready.
+
+Handle any other immediately ready actions. For example, an aimed crossbow, or a held portcullis lever ready to be released.
+
+##### 2. Fast Actions
+Next, resolve any fast actions. Kicking open a door in front of you, drawing and shooting a bow without moving, etc.
+
+##### 3. Movement
+Everyone moves simultaenously. It is an Agility or Might save to tumble or shove past an enemy.
+
+##### 4. Slow Actions
+Last, handle any actions that take significant time. Engaging an enemy in melee, reloading a crossbow, quaffing a potion, taking careful aim, etc.
+
+##### 5. Morale
+Remember to test each group's morale by rolling a Will save on the first enemy casualty, and again when they lose half their number.
+
+#### Attacking & Damage
+The attacker rolls their attack die. The amount exceeding the Defense Rating (DR) of the opponent is dealt to their HP.
+
+Unarmed attacks do 1d4 damage by default.
+
+#### Attack Modifiers
+If fighting from a position of weakness (e.g. through cover or with bound hands), the attack is **impaired** and the attacker must roll 1d4 damage as their attack die.
+
+If fighting from a position of strength (e.g. against a restrained foe or unaware target), the attack is **enhanced**, allowing the attacker to roll 1d12 damage as their attack die.
+
+#### Area of Effect (AoE)
+Attacks with an **area of effect (AoE)** quality affect all targets in the noted area, rolling separately for each affected character.
+
+The number of targets affected can be determined by rolling the related attack die.
+
+#### Critical Damage
+Damage that reduces a target's HP below zero decreases a target's MAW by the remaining amount. Physical attacks are dealt to Might or Agility, depending on the attacker's goal. Mental attacks are dealt to Will.
+
+The target must then make a MAW save for the attribute targeted with the reduced score to avoid **critical damage**. Special abilities from Aspects may be triggered when a target fails their critical damage save.
+
+A character that suffers critical damage has a serious injury. Critical damage to Might needs to be stabilized. If left untreated, they die in 1d6 exploration turns.
+
+Critical damage to Agility renders the target immobile until a short rest. Critical damage to Will sends the target into shock, leaving them catatonic for 1d4 rounds.
+
+#### Ability Score Loss
+If a PC's Might is reduced to 0, they die. If Agility is reduced to 0, they are paralyzed. If Will is reduced to 0, they are delirious. Complete loss of A/W renders the character unable to act until restored through extended rest or by extraordinary means.
+
+#### Reach
+Weapons with a reach advantage always apply their damage first.
+
+#### Retreat
+Running away from combat requires a successful Agility save and a safe destination to run to.
+
+#### Units
+Large groups of similar combatants fighting together are treated as a single **unit**. When a unit takes critical damage, it is routed or significantly weakened. When it reaches 0 Might, it is destroyed.
+
+Attacks against units by individuals are **impaired**, excluding AoE damage.
+
+Attacks against individuals by units are **enhanced** and deal AoE damage.
+
+### TODO: Condition
+
+### Death
+When a character dies, the player is free to take control of a hireling or roll a new character. The new character joins the party immediately.
+
+### Distance
+Distances are measured roughly as **close**, **near**, and **far**. If something is close, it is within about 10' and can be reached immediately. If something is near, it is within about 30' and requires movement to reach. Otherwise it is considered far away.
+
+In encounters, characters can move near distances.
+
+### Speed
+Movement speed is equal to your Agility score.
+
+#### Tactical Movement
+If using a grid, your speed is the number of squares you can move. When moving diagonally, alternate 1--2--1 while counting distance to account for the extra length.
+
+### Time
+Encounters proceed by **rounds** which are roughly 10 seconds.
+
+Exploration on foot proceeds by **turns** which comprise roughly 10 minutes.
+
+Overland travel proceeds by **watches** which represent roughly 1 hour.
+
+### Exploration
+When exploring an area on foot, the GM must keep track of real time. At the end of every turn, check for wandering monsters and ask players to roll for condition on any light sources.
+
+Players must decide the marching order for their characters. The PC in front is the **caller** and decides where to lead the party.
+
+One player should elect to be the **mapper**. Their goal is to prevent the party from getting lost, by keeping a rough map of the area as the GM describes it.
+
+#### Mapping Techniques
+It is often sufficient to use dots for rooms and lines for corridors. Triangles can represent stairs, dashes for doors, and three dots for gates. A small circle on a door is a lock. Use numbers for rooms and letters for connecting maps together. Now, it is possible to make a key for important rooms and jot quick notes.
+
+#### Wandering Monsters
+To check for **wandering monsters** roll X-in-6. The default chance is 2-in-6, but may be lower in safer regions or higher in more dangerous ones.
+
+A table should be made for the area containing a mix of hostile, neutral, and even friendly creatures that can be found wandering. When a wandering monster occurs, roll on the table to determine what monster is near.
+
+#### Light Condition
+To check for light condition, roll a d6. If the result exceeds the condition rating (1--5), mark a use on the item. After three uses, the light goes out.
+
+##### Light Duration
+| Condition Rating | Expected Duration |
+| :--------------: | :---------------: |
+|         1        | 3 Turns           |
+|         2        | 4 Turns           |
+|         3        | 6 Turns           |
+|         4        | 9 Turns           |
+|         5        | 18 Turns          |
+
+### TODO: Overland Travel

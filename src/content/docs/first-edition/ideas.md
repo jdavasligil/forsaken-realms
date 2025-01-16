@@ -71,8 +71,9 @@ This is where I keep some of my random ideas for development.
 ##### General Combat
 | Aspect            | Requirements | Description |
 | :---------------- | :----------- | ----------- |
-| Berserker         | Seasoned     | Once per combat, you may become enraged upon taking damage. While enraged, you take half damage to HP and automatically succeed critical damage saves. You must make an attack every turn to stay enraged. |
 | Brawler           | Tough        | No penalty on improvised weapon or unarmed attacks. |
+| Berserker         | Seasoned     | Once per combat, you may become enraged upon taking damage. While enraged, you take half damage to HP and automatically succeed critical damage saves. You must make an attack every turn to stay enraged. |
+| Dual Wielder      | Seasoned     | You are effective attacking with two weapons at once. Roll both attack dice and keep the highest result. |
 | Martial Artist    | Seasoned     | Your unarmed attacks deal d6 damage and have no penalty. |
 | Sharpshooter      | Veteran      | Ignore ranged attack penalties due to cover and distance. |
 
@@ -131,20 +132,8 @@ Inspiration can be used to get a free reroll on any MAW save or proficiency roll
 
 You either have inspiration, or not. It is lost at the end of each session. Inspiration is granted by players who succeed a pushed roll, and also at the end of each session to the most valued player, in which case they begin their day with it.
 
-
-## Proficiency (DEPRECATED)
-Your proficiency rating is half of your level, rounded down.
-
-Backgrounds provide proficiency in a number of skills.
-
-When the player attempts an action that requires proficiency, they automatically succeed if they have the skill. For particularly hard tasks, the GM may call for a proficiency check.
-
-To perform a proficiency check, roll 1d6. If the result is less than or equal to your proficiency rating, you succeed, otherwise you fail.
-
-If the player does not have the proficiency, either the GM allows a 1-in-6 chance or disallows the roll if it is impossible.
-
 ## Adventuring Skills
-Adventuring skills are X-in-6 rated rolls beginning at 2 and max out at 5. The rating (2--5) equals the number of additional weeks of training required to obtain that level of skill. Hence, it takes 14 weeks of downtime training to reach mastery.
+Adventuring skills are X-in-6 rated rolls beginning at 1 and max out at 5. The rating (1--5) equals the number of additional weeks of training required to obtain that level of skill. Hence, it takes 15 weeks of downtime training to reach mastery from 0.
 
 ### Skill Guidelines
 Skills are...
@@ -164,10 +153,15 @@ Everyone can...
  - Figure out and disable traps.
  - Negotiate and socialize.
 
+#### Common Skills
+| Skill               | Requirements | Description |
+| :------------------ | :----------: | ----------- |
+| Hear Noises         |      --      | Listen for subtle noises indicating potential danger. |
+| Search Hidden       |      --      | Quickly search an area for hidden treasure, secrets, or creatures. |
+
 #### Bardic Skills
 | Skill               | Requirements | Description |
 | :------------------ | :----------: | ----------- |
-| Charm Person        |      --      | Charm a humanoid, making them suggestible to your desires. |
 | Inspire Allies      |      --      | Make a compelling speech to grant allies inspiration. Roll for each target. Allies can only be inspired this way once per day. |
 | Rapture Audience    |      --      | Entertain or fascinate an audience, distracting them completely. |
 
@@ -193,11 +187,8 @@ Everyone can...
 | Skill               | Requirements | Description |
 | :------------------ | :----------: | ----------- |
 | Climb Sheer Surface |      --      | Climb sheer surfaces and overhanging walls. |
-| Disable Traps       |      --      | Detect and disable subtle, intricate traps. |
+| Disable Traps       |      --      | Detect and disable subtle, intricate traps like those in locks. |
 | Hide in Shadows     | Partial Darkness, Unseen | Become effectively invisible as one with the shadows. Moving breaks the effect. |
 | Move Silently       |      --      | Move at full speed in complete silence for one turn. |
 | Open Locks          |      --      | Open a lock silently by picking, bumping, or other roguish means. |
 | Pick Pockets        |      --      | Obtain a single item from a creature's bag, pouch, or pockets undetected. |
-
-## Advantage & Disadvantage
-When making a roll with **advantage**, roll two dice and take the better result. For **disadvantage**, take the worse result. Advantage and disadvantage is granted by the GM based on circumstance and clever play.
