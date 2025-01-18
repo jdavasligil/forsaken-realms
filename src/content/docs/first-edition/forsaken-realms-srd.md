@@ -144,15 +144,18 @@ Player Characters begin with 1 hit die (d6), and gain one each level. Hit dice a
 
 Hit protection represents a combination of stamina, luck, and resilience, not health. This is your character's ability to avoid serious damage.
 
+#### Ancestry
+Player Characters are humans. Their ancestry may provide some advantages and disadvantages in the form of **aspects**. Each unique ancestry provides two aspects. One positive, and one negative.
+
 #### Background
 Who were you and why are you here?
 
 Your background is of the form:  
 \[**Reputation** (Adjective) + **Background** (Noun)\] who was \[**Misfortune** (Verb, past participle)\]. E.g. **Unreliable** **alchemist** who was badly **burned**.
 
-Let this brief description spark your imagination.
+Let this brief description spark your imagination. This is your identity before seeking a new life in the forsaken realm.
 
-This is your identity before seeking a new life in the forsaken realm. Outside of role-play, it is used by the GM to determine what your character is proficient at.
+Backgrounds come with **two relevant adventuring skills** and **one aspect**.
 
 <details markdown="block">
   <summary>
@@ -160,7 +163,9 @@ Expand For Example
   </summary>
 Ada decides her character was an <b>honest sailor</b> who was <b>cursed</b>.
 
-Her imagination fills the gaps: the PC paid no heed to the old superstitions and cursed the lord of the deep after losing a close mate in a storm. The crew then suffered a bout of misfortune, soon blaming the PC. Eventually, the PC was marooned and left to die. The dread lord of the sea had cursed and abandoned her. Surviving for months off of crab and seaweed, they eventually crafted a makeshift raft which delivered her, after much turmoil, back to land.
+Her character was cursed by the dread lord of the sea, a terrible god, for not paying respects with her fellow sailors. As a result, her friends and crew died, and she was marooned for weeks.
+
+She has the <b>Navigate Sea</b> and <b>Mercantile Lore</b> skills, and gains the <b>Cursed</b> aspect, the exact nature of which is up to the GM.
 </details>
 
 #### Traits
@@ -198,21 +203,129 @@ Lastly, name your character.
 
 ## TODO: How to Play
 ### Required Materials
-### Roles
+### Roles & Role-play
 ### Running the Game
-### Roleplaying
 
 ## Rules
 ### Abilities
 Each of the three **abilities (MAW)** are used in different circumstances.
 
-**(M)ight:** Used for saves requiring physical power. E.g. lifting gates, bending bars, resisting poison, etc.
+**(M)ight:** Used for saves requiring physical power and resilience. E.g. lifting gates, bending bars, resisting poison, etc.
 
 **(A)gility:** Used for saves requiring poise, speed, and reflexes. E.g. dodging, climbing, sneaking, balancing, etc.
 
 **(W)ill:** Used for saves requiring the force of will or mental fortitude. E.g. casting spells, binding a demon, resisting charm, or holding on to sanity.
 
-### TODO: Advancement
+### Advancement
+As characters progress, they become tougher and better at surviving. When a character levels up, roll Might, Agility, and Will. If the result is higher than your max score, the max score increases by 1. Scores can be increased no higher than 18.
+
+When a character reaches the next rank, they gain a point of **grit**, which determines how many conditions a character can ignore and how difficult they are to injure or kill.
+
+##### XP Table
+| Level | Hit Dice |   Rank    | Grit | Experience  |
+| :---: | :------: | :-------- | :--: | :---------- |
+|   1   |   1d6    | Novice    |  0   |0           |
+|   2   |   2d6    | Novice    |  0   |1,000       |
+|   3   |   3d6    | Seasoned  |  1   |3,000       |
+|   4   |   4d6    | Seasoned  |  1   |6,000       |
+|   5   |   5d6    | Seasoned  |  1   |10,000      |
+|   6   |  &#x2009; 5d6(+1)\* | Veteran | 2 | 15,000 |
+|   7   |  5d6(+2) | Veteran   |  2   | 25,000      |
+|   8   |  5d6(+3) | Heroic    |  3   | 40,000      |
+|   9   |  5d6(+4) | Heroic    |  3   | 60,000      |
+|   10  |  5d6(+5) | Legendary |  4   | 100,000     |
+|   11+ |  5d6(+5) | Legendary |  4   | 100,000&times;2 |
+
+**\*Note**. Xd6(+Y) means roll Y six sided dice and keep the X highest.
+
+
+#### XP Award System
+1 Award = 100 XP
+
+#### XP Questionnaire
+- [ ] (1 Award) Did you **show up** to the table? 
+- [ ] (1 Award) Did you **inspire** anyone?
+- [ ] (1 Award) Did you **discover** a new faction or location?
+- [ ] (1 Award) Did you help your party make progress toward their **goal**?
+- [ ] (1 Award) Did you make progress toward your personal **ambition**?
+- [ ] (1--5 Awards) Did your party achieve their **goal**?
+- [ ] (1--5 Awards) Did your party perform a great **deed**?
+- [ ] (1--5 Awards) Did your party make a significant **impact** on the world?
+- [ ] (Begin with Inspiration) Were you voted as **most valuable player (MVP)**?
+
+### Adventuring Skills
+Adventuring skills are X-in-6 rolls beginning at 1 and max out at 5. The rating (1--5) equals the number of additional weeks of training required to obtain that level of skill. Hence, it takes 15 weeks of downtime training to reach mastery from untrained.
+
+Skills are used to perform extraordinary feats. Anyone without training can try an ordinary task and make the appropriate save. With training, they can succeed automatically.
+
+Skills are only rolled when an untrained person has no chance of success. A result less than or equal to the skill rating is a success.
+
+#### Common Skills
+| Skill               | Requirements | Description |
+| :------------------ | :----------: | ----------- |
+| Hear Noises         |      --      | Listen for subtle noises indicating potential danger. |
+| Search Hidden       |      --      | Quickly search an area for hidden treasure, secrets, or creatures. |
+
+#### Bardic Skills
+| Skill               | Requirements | Description |
+| :------------------ | :----------: | ----------- |
+| Inspire Allies      |      --      | Make a compelling speech to grant allies inspiration. Roll for each target. Allies can only be inspired this way once per day. |
+| Rapture Audience    |      --      | Entertain or fascinate an audience, distracting them completely. |
+
+#### Wilderness Skills
+| Skill               | Requirements | Description |
+| :------------------ | :----------: | ----------- |
+| Handle Animals      |      --      | Tame or control a wild or panicked beast. |
+| Navigate Land       |      --      | Avoid getting lost in dense and difficult terrain. |
+| Navigate Sea        |      --      | Avoid getting lost traveling vast and wide open waters. |
+| Track Monsters      |      --      | Follow sparse or hidden tracks. |
+
+#### Lore Skills
+| Skill               | Requirements | Description |
+| :------------------ | :----------: | ----------- |
+| Heraldic Lore       |      --      | Identify people, families, kingdoms, guilds and factions. |
+| Herb Lore           |      --      | Identify plants and herbs. Craft natural remedies or poisons. |
+| Monster Lore        |      --      | Identify monsters and their weaknesses. |
+| Mercantile Lore     |      --      | Identify the true market value of goods, services, and treasure. |
+| Occult Lore         |      --      | Identify forgotten religions, otherworldly beings, and arcane secrets. |
+| Underworld Lore     |      --      | Identify criminal organizations and symbols. Find a fence or black market. |
+
+#### Rogue Skills
+| Skill               | Requirements | Description |
+| :------------------ | :----------: | ----------- |
+| Climb Sheer Surface |      --      | Climb sheer surfaces and overhanging walls. |
+| Disable Traps       |      --      | Detect and disable subtle, intricate traps like those in locks. |
+| Hide in Shadows     | Partial Darkness, Unseen | Become effectively invisible as one with the shadows. Moving breaks the effect. |
+| Move Silently       |      --      | Move at full speed in complete silence for one turn. |
+| Open Locks          |      --      | Open a lock silently by picking, bumping, or other roguish means. |
+| Pick Pockets        |      --      | Obtain a single item from a creature's bag, pouch, or pockets undetected. |
+
+### Downtime & Training
+Downtime is the time that passes in the world between game sessions.
+
+A character may only focus on one task during downtime. This can be performing research, resting, working a job, training, carousing, etc.
+
+#### Training
+Characters may train during downtime by finding an appropriate master willing to teach them. Training progression is measured in weeks.
+
+It takes 1 week of training to learn a new skill or gain a weapon proficiency. Improving a skill takes a number of weeks equal to the next skill rating.
+
+#### Work
+If the character has a professional background, they may leverage their services for money and make 1d6 gp per week. Untrained labor makes 1d6 sp per week.
+
+#### Carousing
+Characters who wish to carouse spend 10 gp and roll on the carousing table.
+
+##### Carousing Table
+| 2d6 | Result | Description |
+| :-: | ------ | ----------- |
+|  2  | Thief | Coinpurse is stolen. |
+| 3-4 | Hangover | Roll hit dice twice and take the lower result. |
+| 5-6 | Enemy | Lose favor with a random faction. |
+|  7  | Break Even | Carousing cost you nothing. |
+| 8-9 | Friend | Gain favor with a random faction. |
+|10-11| Well Rested | Begin the next day with a bonus hit die. |
+| 12  | Fortune | Make 3d6x10 gp gambling. |
 
 ### Saves
 A **save** is a roll made to avoid bad outcomes from risky choices and circumstances.
@@ -410,7 +523,7 @@ The number of targets affected can be determined by rolling the related attack d
 #### Critical Damage
 Damage that reduces a target's HP below zero decreases a target's MAW by the remaining amount. Physical attacks are dealt to Might or Agility, depending on the attacker's goal. Mental attacks are dealt to Will.
 
-The target must then make a MAW save for the attribute targeted with the reduced score to avoid **critical damage**. Special abilities from Aspects may be triggered when a target fails their critical damage save.
+The target must then make a MAW save for the attribute targeted with the reduced score to avoid **critical damage**. Characters add their **grit** to the ability score when rolling to avoid critical damage. Special abilities from Aspects may be triggered when a target fails their critical damage save.
 
 A character that suffers critical damage has a serious injury. Critical damage to Might needs to be stabilized. If left untreated, they die in 1d6 exploration turns.
 
@@ -454,6 +567,10 @@ Encounters proceed by **rounds** which are roughly 10 seconds.
 Exploration on foot proceeds by **turns** which comprise roughly 10 minutes.
 
 Overland travel proceeds by **watches** which represent roughly 1 hour.
+
+Downtime proceeds in real time between sessions, and is typically measured in weeks.
+
+When you are not playing, the world is assumed to continue to exist and progress time.
 
 ### Exploration
 When exploring an area on foot, the GM must keep track of real time. At the end of every turn, check for wandering monsters and ask players to roll for condition on any light sources.
