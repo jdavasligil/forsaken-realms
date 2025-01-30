@@ -99,7 +99,7 @@ Players trust one another to engage with the shared setting, character goals, an
 - Stay on the same page about goals and limits, respecting each other and accomplishing more as a group than alone.
 - Work to build camaraderie with your fellow players by considering their needs as well as your own.
 
-#### Exploration
+#### Exploring
 - Asking questions and listening to detail is more useful than any stats, items, or skills you have.
 - Take the GM's description without suspicion, but don't shy away from seeking more information.
 - There is no single correct way forward.
@@ -124,11 +124,12 @@ Players trust one another to engage with the shared setting, character goals, an
 - Keep things moving forward and play to see what happens.
 
 
+#### TODO: Streamline character creation
 ## Character Creation
 
 #### Attributes
 Player Characters (PCs) have three attributes:  
-**(M)ight**, **(A)gility** and **(W)ill**, referred together as **MAW**. When creating a PC, the player rolls 3d6 and drops the lowest die for each of their character's ability scores in order, down the line. They may swap any two of the results. Higher is better.
+**(M)ight**, **(A)gility** and **(W)ill**, referred together as **MAW**. When creating a PC, the player rolls 3d6 and drops the lowest die for each of their character's ability scores in order, down the line. They may swap any two of the results. Higher is better. Mark your highest score as your **prime attribute**, which gets a free reroll on advancement.
 
 Attributes are used to make saves against hazardous and deadly consequences.
 
@@ -136,7 +137,7 @@ Attributes are used to make saves against hazardous and deadly consequences.
   <summary>
 Expand For Example
   </summary>
- Ada rolls for her character's <b>MIG</b>, resulting in a <b>2</b>, a <b>4</b>, and a <b>6</b>, totaling <b>10</b> after dropping the lowest value. The next three ability rolls result in a <b>6</b> for <b>AGI</b>, and a <b>7</b> for <b>WIL</b>. She decides to swap the <b>10</b> and the <b>6</b>, for a character with <b>6 MIG</b>, <b>10 AGI</b>, and <b>7 WIL</b> (6/10/7 <b>MAW</b>).
+ Ada rolls for her character's <b>Might</b>, resulting in a <b>2</b>, a <b>4</b>, and a <b>6</b>, totaling <b>10</b> after dropping the lowest value. The next three ability rolls result in a <b>6</b> for <b>Agility</b>, and a <b>7</b> for <b>Will</b>. She decides to swap the <b>10</b> and the <b>6</b>, for a character with <b>6 M</b>, <b>10 A</b>, and <b>7 W</b> (6/10/7 <b>MAW</b>). Her <b>prime attribute</b> is <b>agility</b>.
 </details>
 
 #### Hit Dice
@@ -145,23 +146,24 @@ Player Characters begin with 1 hit die (d6), and gain one each level. Hit dice a
 Hit protection represents a combination of stamina, luck, and resilience, not health. This is your character's ability to avoid serious damage.
 
 #### Ancestry
-Player Characters are humans. Their ancestry may provide some advantages and disadvantages in the form of **aspects**. Each unique ancestry provides two aspects. One positive, and one negative.
+Player Characters are humanoids. Their ancestry may provide some advantages and disadvantages in the form of **aspects**. Each unique ancestry provides two [aspects](#aspects). One positive, and one negative.
 
 #### Background
-Who were you and why are you here?
+Your background is one word that describes either a former profession or lifestyle.
 
-Your background is of the form:  
-\[**Reputation** (Adjective) + **Background** (Noun)\] who was \[**Misfortune** (Verb, past participle)\]. E.g. **Unreliable** **alchemist** who was badly **burned**.
+Backgrounds provide starting equipment, [adventuring skills](#adventuring-skills) and [aspects](#aspects).
 
-Let this brief description spark your imagination. This is your identity before seeking a new life in the forsaken realm.
-
-Backgrounds come with **two relevant adventuring skills** and **one aspect**.
-
+Custom backgrounds can be created as follows: begin with 10 points.
+- 1 point = 10gp = skill (rank 1)
+- 2 points = aspect (positive)
+- aspect (negative) grants 1 point.
+- skill rank increase = (new rank) points.
+- gp can be spent on equipment or kept as gold.
 <details markdown="block">
   <summary>
 Expand For Example
   </summary>
-Ada decides her character was an <b>honest sailor</b> who was <b>cursed</b>.
+Ada decides her character was a <b>sailor</b> who was <b>cursed</b>.
 
 Her character was cursed by the dread lord of the sea, a terrible god, for not paying respects with her fellow sailors. As a result, her friends and crew died, and she was marooned for weeks.
 
@@ -195,16 +197,83 @@ With the background sorted, Ada has a pretty good idea about how to answer the c
 <b>Secret</b>: My courage is all an act. Deep down I am truly terrified.
 </details>
 
-#### Starting Equipment
-Player characters begin with nothing but the clothes on their back, two items from their **background**, and an heirloom **trinket**. Characters entering the forsaken realms are unfortunate souls who have lost or given up most of their possessions.
-
 #### Name
 Lastly, name your character.
 
-## TODO: How to Play
+## How to Play
 ### Required Materials
+Very little is required to play the game beyond your imagination and core rules.
+
+##### Required
+- [ ] Pencils & Erasers
+- [ ] Paper (Grid or Dot)
+- [ ] Standard RPG Dice (d4, d6, d8, d10, d12, d100, d20)
+- [ ] Timer (Phone, Kitchen, Clock, Hourglass, etc.)
+
+##### Recommended
+- [ ] Character Sheets
+- [ ] Extra six-sided dice (10-12)
+- [ ] Hex Paper
+- [ ] Hireling Sheets
+- [ ] Item Cutouts
+- [ ] Party & Faction Tracker Sheet
+- [ ] Time Tracker Sheet
+
+##### Optional
+- [ ] Washable Grid
+- [ ] Sand Timer (10 min)
+- [ ] Miniatures (or Cutouts)
+- [ ] 3D Terrain
+
 ### Roles & Role-play
+One player must elect to play the role of the **Gamemaster (GM)**. The rest of the players will be playing the role of their **Player Characters (PCs)**.
+
+#### The Game Master
+The GM is responsible for running the game. They are the keeper of secrets, arbiter of rules and rulings, and their words are the portal through which players experience the world. They play all **monsters** and **non-player characters (NPCs)**, create the factions and towns, the dungeons, and stock them with magic and treasures.
+
+Much has been written on the subject by the likes of [Matthew J. Finch](https://friendorfoe.com/d/Old%20School%20Primer.pdf), [Gary Gygax](https://archive.org/details/Europa_6-8-1975-04/page/n19/mode/2up), [Justin Alexander](https://thealexandrian.net/so-you-want-to-be-a-game-master), [Michael E. Shea](https://shop.slyflourish.com/products/return-of-the-lazy-dungeon-master?srsltid=AfmBOoqwikqwaGg_2D0fRwf0kagZMkn2yUQRZHCo17NrnEKPRG5ilx4s).
+
+#### The Players
+Players control and play the role of their respective characters. They drive the game forward by making decisions and deciding what to do next. It is often necessary for players to take on one or more additional roles to help facilitate the game. These roles can be fluid and change as needed.
+
+##### Caller
+The caller is the party leader. When group decisions need to be made, the caller is the one in charge of reporting party consensus to the GM and making final decisions.
+
+##### Chronicler
+It is recommended to have one player responsible for writing down what happens during a session, creating a brief summary for the GM to store in their session notes.
+
+##### Mapper
+The mapper is necessary to prevent the party from getting lost when exploring. Their job is not to recreate a perfect copy of the GM's map from description. Instead, it is recommended to use basic dots, lines, and symbols to track locations.
+
+##### Wayfinder
+When exploring the wilderness, the wayfinder is responsible for navigation and makes any related rolls to prevent getting lost.
+
+#### Teamwork
+The party must have a shared collective goal. It is the responsibility of the players to align their character's motivations with the party. Experienced players can work with friction and some degree of mis-alignment, however, this is a game based on fantasy adventure and teamwork.
+
+#### Immersive Role-play
+Optionally, players or GMs may elect to act out the role of characters in first person. This is never required, and may be awkward at first for people unfamiliar with acting.
+
+Role-play is about getting into the role of your character and making decisions that create great moments for you and other players. This is possible in both first and third person role-play.
+
 ### Running the Game
+In general, play proceeds as follows:
+
+ 1. The GM describes the scene and what is happening.
+ 2. The players take turns saying what they would like to do.
+ 3. The GM determines if any rolls or saves are necessary.
+ 4. Players make any rolls requested by the GM.
+ 5. The GM describes the results. Repeat from step 1.
+
+[Exploration](#exploration) and [combat](#combat) follow the same basic process with some additional structure.
+
+At the end of the session:
+
+ 1. The GM holds a vote for most valued player, who gets to start the next session with inspiration.
+ 2. The GM walks players through their XP Questionnaire and grants XP.
+ 3. Any players who level up roll to advance.
+ 4. Each player declares their downtime activity and what they hope to do next session.
+ 5. The GM makes a session note entry tracking this information.
 
 ## Rules
 ### Abilities
@@ -299,6 +368,54 @@ Skills are only rolled when an untrained person has no chance of success. A resu
 | Move Silently       |      --      | Move at full speed in complete silence for one turn. |
 | Open Locks          |      --      | Open a lock silently by picking, bumping, or other roguish means. |
 | Pick Pockets        |      --      | Obtain a single item from a creature's bag, pouch, or pockets undetected. |
+
+### Aspects
+Aspects are unique character features which provide a specific benefit or complication. Aspects may be gained or lost as the narrative dictates. They are provided by character [ancestry](#ancestry) and [background](#background). Some may be obtained through [training](#training). Others may be gained or lost during gameplay through various interactions.
+
+##### Physical
+| Aspect      | Requirements | Description |
+| :---------- | :----------: | ----------- |
+| Attractive  |      --      | +2 to NPC Reaction rolls. |
+| Dying       |      --      | You have a terminal illness which may claim your life any day. |
+| Sickly      |  Might < 10  | Disadvantage on saves related to resisting poison or disease. |
+| Tough       |  Might > 9   | Gain a bonus to hit dice (+1). |
+| Ugly        |      --      | &minus;2 to NPC Reaction rolls. |
+
+##### Magical
+| Aspect      | Requirements | Description |
+| :---------- | :----------: | ----------- |
+| Cursed      |      --      | Each curse has a specific effect, and secret circumstance which lifts it. |
+| Fae-touched |      --      | Immune to Charms. Vulnerable to cold iron. |
+| Lycanthrope |      --      | Shift into monstrous form. Vulnerable to silver. |
+| Possessed   |      --      | Gain a daemonic power. Will save to maintain control. |
+| Vampiric    |      --      | Undead. Gain a vampiric power. Will save to resist blood lust. |
+
+##### General Combat
+| Aspect            | Requirements | Description |
+| :---------------- | :----------- | ----------- |
+| Brawler           | Tough        | No penalty on improvised weapon or unarmed attacks. |
+| Berserker         | Seasoned     | Once per combat, you may become enraged upon taking damage. While enraged, you take half damage to HP and automatically succeed critical damage saves. You must make an attack every turn to stay enraged. |
+| Dual Wielder      | Seasoned     | You are effective attacking with two weapons at once. Roll both attack dice and keep the highest result. |
+| Martial Artist    | Seasoned     | Your unarmed attacks deal d6 damage and have no penalty. |
+| Sharpshooter      | Veteran      | Ignore ranged attack penalties due to cover and distance. |
+
+##### Weapon Training
+| Aspect            | Requirements | Description |
+| :---------------- | :----------: | ----------- |
+| Axe Master        | Veteran      | You can embed your axe in an enemy's shield, disabling their shield and giving you Advantage on your next attack. |
+| Crossbow Master   | Veteran      | Reduce the Reload time of crossbows by 1. |
+| Flail Master      | Veteran      | Flail attacks no longer have a chance to harm you. |
+| Greataxe Master   | Veteran      | You can destroy an enemy's shield while dealing half damage. |
+| Greatsword Master | Veteran      | Multiple attackers deal the maximum of their results in damage, not their total, against you. |
+| Polearm Master    | Veteran      | The enemy must use their remaining movement and make an Agility save to get within your reach. |
+| Shield Master     | Veteran      | You may parry and attack at the same time. |
+| Sword Master      | Veteran      | Get an immediate attack when you parry successfully. |
+
+##### Overland Travel
+| Aspect         | Requirements | Description |
+| :------------- | :----------: | ----------- |
+| [Biome] Native |      --      | You can not get lost when traveling in [biome]. |
+
 
 ### Downtime & Training
 Downtime is the time that passes in the world between game sessions.
